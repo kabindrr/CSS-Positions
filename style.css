@@ -1,0 +1,22 @@
+.parent {
+  background: gray;
+  min-height: 40vh;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.parent > div {
+  min-height: 150px;
+}
+
+.c1 {
+  background: red;
+}
+.c2 {
+  background: green;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+.c3 {
+  background: blue;
+}
